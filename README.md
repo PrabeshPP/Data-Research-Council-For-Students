@@ -12,6 +12,7 @@ DRCFS (Data Research Council For Students) is a platform designed to bring toget
 
 ## Technology Stack
 
+
 - Frontend:
   - ReactJS
   - React-Redux
@@ -23,10 +24,17 @@ DRCFS (Data Research Council For Students) is a platform designed to bring toget
 - Backend:
   - Django
 
+## Snapshots of DRCFS Website
+![drcfs](https://github.com/PrabeshPP/Drcfs-frontend/assets/83439329/b9f1c947-d2fb-47c8-8bd3-9384462379d0)
+<br/>
+<img width="1470" alt="Screenshot 2024-04-12 at 11 08 02 AM" src="https://github.com/PrabeshPP/Drcfs-frontend/assets/83439329/f21fc9f2-8b3e-4c7e-b3ac-2b81b83ef834">
+
+
+
 ## Getting Started
 
 To get started with DRCFS, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/PrabeshPP/DRCFS.git
+   git clone https://github.com/PrabeshPP/DRCFS-frontend
