@@ -1,0 +1,41 @@
+.container{
+    height: max-content;
+    width: 20%;
+    margin-top: 2%;
+    color: white;
+    
+}
+
+.container h1{
+    user-select: none;
+}
+
+.list{
+    min-height: 10vh;
+    width: max-content;
+    padding-top: 5%;
+}
+
+.list-div{
+    padding-top: 20%;
+    cursor: pointer;
+}
+
+.list-div p:hover{
+   color: rgb(193, 74, 0);
+}
+
+.navLink{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:481px){
+    .container{
+        width: 90%;
+        border-top: 2px solid white;
+        box-sizing: border-box;
+        padding-top: 5%;
+    }
+}
+

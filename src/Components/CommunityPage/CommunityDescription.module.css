@@ -1,0 +1,153 @@
+:root {
+  --font-color: white;
+  --button-color: #31343c;
+  --button-radius: 30px;
+  --button-border: none;
+  --button-outline: none;
+  --button-cursor: pointer;
+  --button-height: 10vh;
+  ---button-width: 25%;
+  --button-fontColor: #3c3e46;
+  --button-fontSize: 1.2rem;
+  --button-fontWeight: 700;
+  --button-display: flex;
+  --button-space: center;
+  --button-alignItems: center;
+  --button-boxSizing: border-box;
+  --button-mobile-fontSize: 1rem;
+  --button-mobile-height: 35%;
+}
+
+.container {
+  min-height: max-content;
+  width: 100%;
+}
+
+.join-Us-Box {
+  min-height: 90vh;
+  width: 100%;
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.join-Us-Box .headerBox {
+  width: 90%;
+  height: max-content;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 3.2rem;
+  color: white;
+}
+
+.captionBox {
+  margin-top: 5vh;
+  width: 80%;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-weight: 400;
+  height: max-content;
+}
+
+.buttonBox {
+  margin-top: 7vh;
+  margin-bottom: 5vh;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin-button {
+  text-decoration: none;
+  color: var(--font-color);
+  width: var(---button-width);
+  height: var(--button-height);
+  border-radius: var(--button-radius);
+  outline: var(--button-outline);
+  border: var(--button-border);
+  background-color: var(--button-color);
+  cursor: var(--button-cursor);
+  font-size: var(--button-fontSize);
+  font-weight: var(--button-fontWeight);
+  display: var(--button-display);
+  justify-content: var(--button-space);
+  align-items: var(--button-alignItems);
+  box-sizing: var(--button-boxSizing);
+}
+
+.icon {
+  padding-left: 4%;
+}
+
+.linkedin-button:hover,
+.linkedin-button:active {
+  background-color: #126bc4;
+  color: white;
+}
+
+.discord-button {
+  text-decoration: none;
+  margin-left: 5%;
+  color: var(--font-color);
+  width: var(---button-width);
+  height: var(--button-height);
+  border-radius: var(--button-radius);
+  outline: var(--button-outline);
+  border: var(--button-border);
+  background-color: var(--button-color);
+  cursor: var(--button-cursor);
+  font-size: var(--button-fontSize);
+  font-weight: var(--button-fontWeight);
+  display: var(--button-display);
+  justify-content: var(--button-space);
+  align-items: var(--button-alignItems);
+  box-sizing: var(--button-boxSizing);
+}
+
+.discord-button:hover,
+.discord-button:active {
+  background-color: #324fe1;
+  color: white;
+}
+
+.span {
+  color: orangered;
+}
+
+@media (max-width: 481px) {
+  .headerBox .h1 {
+    width: 95%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .captionBox {
+    text-align: center;
+    width: 90%;
+  }
+
+  .linkedin-button {
+    font-size: 1.2rem;
+    width: 45%;
+    background-color: #126bc4;
+    height: 6vh;
+  }
+
+  .discord-button {
+    font-size: 1.2rem;
+    width: 45%;
+    background-color: #324fe1;
+    height: 6vh;
+  }
+}

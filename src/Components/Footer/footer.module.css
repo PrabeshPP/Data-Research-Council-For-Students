@@ -1,0 +1,19 @@
+:root {
+  --footer-color: #121418;
+}
+
+.footer {
+  background-color: var(--footer-color);
+  min-height: 45vh;
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+@media (max-width: 481px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}

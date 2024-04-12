@@ -1,0 +1,65 @@
+.container{
+    height: max-content;
+    width: 20%;
+    margin-top: 2%;
+    color: white;
+    
+}
+
+.container h1{
+    user-select: none;
+}
+
+.list{
+    min-height: 10vh;
+    width: max-content;
+    padding-top: 5%;
+    cursor: pointer;
+}
+
+.list p:hover{
+   color: rgb(193, 74, 0);
+}
+
+.contactBox{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactBox a{
+    color: white;
+    list-style: none;
+}
+
+/* .contactBox a:hover{
+    color: rgb(193, 74, 0);
+} */
+
+.iconBox{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    background-color: #25262a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconBox:hover{
+    background-color: #3a3d47;
+}
+
+@media (max-width:481px) {
+        .container{
+            width: 90%;
+            padding-top: 5%;
+            border-top: 2px solid white;
+            margin-bottom: 5%;
+            box-sizing: border-box;
+        }
+}

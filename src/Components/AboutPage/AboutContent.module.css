@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&display=swap");
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerBox {
+  width: 80%;
+  height: 10vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.headerBox span {
+  color: orangered;
+}
+
+.insideBox {
+  min-height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.member-Box {
+  min-height: 20vh;
+  width: 20%;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1e1e1e;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.imgBox {
+  height: 35vh;
+  width: 100%;
+  position: relative;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0%;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* border-radius: 16px; */
+}
+
+.hoverBox {
+  display: none;
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.imgBox:hover .hoverBox {
+  display: flex;
+  background-color: rgba(29, 26, 24, 0.463);
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.teamheaderBox {
+  height: max-content;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.roleBox {
+  width: 100%;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  font-family: "Inter", sans-serif;
+}
+
+.iconBox {
+  height: max-content;
+  width: max-content;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.6rem;
+  transition: all 300ms ease-in-out;
+  border-radius: 50px;
+  color: royalblue;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.iconBox:hover {
+  transform: scale(1.2);
+}
+
+.spinner {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border-radius: 50px;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border: 10px solid transparent;
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 481px) {
+  .member-Box {
+    width: 80%;
+  }
+
+  .imgBox {
+    height: 35vh;
+  }
+
+  .img {
+    object-fit: cover;
+  }
+}

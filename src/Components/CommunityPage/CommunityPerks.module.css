@@ -1,0 +1,101 @@
+.container{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+}
+
+.header-Box{
+    margin-top: 10vh;
+    width: max-content;
+    height: 20%;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.perksList-Box{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 90%;
+    min-height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.perkBox{
+    width: 40%;
+    min-height: max-content;
+    background-color: #31343c;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 20px;
+}
+
+.headerBox{
+    height: max-content;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 3vh;
+    
+}
+
+.listBox{
+    min-height: 25vh;
+    width: 100%;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1vh;
+    padding-left: 8%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+
+}
+
+.listBox li{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 2vh;
+    list-style: none;
+}
+
+.listBox li::before{
+    content: "\2022";
+    color: orangered;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.0em;
+    margin-left: -1em;
+    
+}
+
+.span{
+    color: orangered;
+}
+
+
+@media (max-width:481px) {
+        .header-Box{
+            font-size: 1.1rem;
+            width: 100%;
+            text-align: center;
+        }
+
+        .perkBox{
+            width: 90%;
+        }
+
+        .listBox{
+            padding-left:10%;
+        }
+}

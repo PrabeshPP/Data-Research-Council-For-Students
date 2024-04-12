@@ -1,0 +1,55 @@
+.container {
+  padding: 80px 122px;
+  padding-top: 60px;
+  background: #1e1e1e;
+  color: #ccc;
+}
+
+.container > h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.lead {
+  margin: 20px 0;
+  padding: 10px 0;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.container > h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.type-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.type-container > h3 {
+  font-size: 28px;
+}
+
+.type-container > p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.last {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.last > span:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 40px 50px;
+  }
+}

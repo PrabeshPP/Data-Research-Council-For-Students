@@ -1,0 +1,12 @@
+.container {
+  background-color: #141414;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+
+@media (max-width: 481px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,190 @@
+.container {
+  min-height: 80vh;
+  width: 100%;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headerBox {
+  height: 5vh;
+  width: max-content;
+  color: white;
+  margin-top: 10vh;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerBox span {
+  color: orangered;
+}
+
+.eventsBox {
+  margin-top: 8vh;
+  width: 95%;
+  min-height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5vh;
+  color: white;
+  justify-content: space-around;
+}
+
+.event-box {
+  width: 30%;
+  background-color: #1e1e1e;
+  margin: 1%;
+  border-radius: 16px;
+  padding: 0%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  transition: transform 0.3s ease-in-out;
+}
+
+.event-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 5px rgba(78, 17, 177, 0.388);
+}
+
+.button {
+  min-height: 10vh;
+  width: 20%;
+  color: royalblue;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 30px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.imgBox {
+  height: 35vh;
+  width: 100%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.imgBox .img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.caption-Box {
+  height: max-content;
+  width: 100%;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.eventName-Box {
+  min-height: 5vh;
+  padding-top: 5%;
+  width: 100%;
+  padding-left: 4%;
+  box-sizing: border-box;
+}
+
+.eventName-Box .span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.eventName-BoxSpeaker {
+  height: 70%;
+  width: 100%;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.speakerBox {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+  box-sizing: border-box;
+  margin-top: 2.5%;
+}
+.speakerBox p {
+  padding-left: 2%;
+}
+
+.dateBox {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.date-Calendar {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+  box-sizing: border-box;
+}
+
+.date-Calendar p {
+  padding-left: 5%;
+  color: orangered;
+}
+
+.registerButton {
+  height: 6vh;
+  width: 30%;
+  cursor: pointer;
+  margin-right: 5%;
+  border-radius: 30px;
+  font-weight: bold;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid royalblue;
+  color: royalblue;
+  font-size: 0.9rem;
+  letter-spacing: 0.2mm;
+}
+
+.registerButton > a {
+  text-decoration: none;
+  color: royalblue;
+}
+
+.registerButton > a:visited {
+  color: royalblue;
+}
+
+/* .registerButton:hover{
+    background-color: #4a4545;
+} */
+
+.registerButton:disabled {
+  cursor: no-drop;
+}
+
+@media (max-width: 481px) {
+  .headerBox {
+    font-size: 1.2rem;
+  }
+
+  .event-box {
+    width: 90%;
+  }
+}

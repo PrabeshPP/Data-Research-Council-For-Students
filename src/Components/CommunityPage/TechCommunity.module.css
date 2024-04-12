@@ -1,0 +1,87 @@
+.container {
+  background-color: #141414;
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.headerBox {
+  width: max-content;
+  height: max-content;
+  color: white;
+  margin-top: 50vh;
+  margin-left: 2%;
+  font-size: 1.3rem;
+}
+
+.headerBox span {
+  color: orangered;
+}
+
+.technologies-Box {
+  width: 70%;
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  justify-content: center;
+}
+
+.techBox {
+  width: 40%;
+  height: 50vh;
+  background-color: #24201e;
+  border-radius: 10px;
+  margin: 2vh;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.techBox .header {
+  color: orangered;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.iconBox {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: rgb(119, 118, 118);
+  margin-top: 2vh;
+}
+
+.descBox {
+  margin-top: 6vh;
+  width: 90%;
+  height: max-content;
+  font-size: 1.1rem;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 481px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headerBox {
+    margin-top: 5vh;
+  }
+
+  .technologies-Box {
+    width: 100%;
+  }
+
+  .techBox {
+    width: 90%;
+  }
+}
