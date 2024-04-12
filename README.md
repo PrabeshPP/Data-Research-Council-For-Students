@@ -1,11 +1,32 @@
-# DRCFS Organization website.
+# DRCFS - Data Research Council For Students
 
-I created this webiste for DRCFS Organization,a data science community.I used React ,React Redux ,React Routing in the front-end. Link of the website: <a>https://drcfs.org/</a>.The backend of this project is made using Django.
+DRCFS (Data Research Council For Students) is a platform designed to bring together students from all over Nepal who are interested in data science. The platform provides opportunities for students to participate in events organized by the Data Research Council for Students as well as other data science-related events happening across Nepal. Additionally, it facilitates verification using a token system associated with the certificate issued to members of the DRCFS community.
 
-If you want to contribute to this project ,feel free to open issues and pull-requests.
+## Features
 
-Steps to run this project in you local machine:
-<br>1. Git clone <project URL><br>
-2.Open the project in your preferred IDE or code editor(VS code Recommended)<br>
-3.Run npm install.<br>
-4.Run npm start.
+- **Event Participation:** Students can easily browse and participate in events organized by the Data Research Council for Students and other data science-related events across Nepal.
+
+- **Token-Based Verification:** Members of the DRCFS community can verify their membership using a token system associated with the certificate issued to them.
+
+- **Robust Technology Stack:** The platform is built using modern web technologies including ReactJS, React-Redux, ReactRouter, JavaScript, HTML, and CSS for the frontend, and Django for powering the backend API.
+
+## Technology Stack
+
+- Frontend:
+  - ReactJS
+  - React-Redux
+  - ReactRouter
+  - JavaScript
+  - HTML
+  - CSS
+
+- Backend:
+  - Django
+
+## Getting Started
+
+To get started with DRCFS, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/PrabeshPP/DRCFS.git
