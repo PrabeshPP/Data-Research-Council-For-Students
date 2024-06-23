@@ -38,3 +38,5 @@ To get started with DRCFS, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/PrabeshPP/DRCFS-frontend
+
+[Note]: Due to Privacy issue, and community policy I have privatized the Bank-end repositry. The API fetched is a dummy api end-points, this repositry is to show the overview of the project I led.
